@@ -1,12 +1,12 @@
-#from flask import Flask, request, jsonify, render_template
-#import os
-#import threading
-#import time
-#import requests
-#import uuid
-#import random
-#from datetime import datetime
-#from apscheduler.schedulers.background import BackgroundScheduler
+from flask import Flask, request, jsonify, render_template
+import os
+import threading
+import time
+import requests
+import uuid
+import random
+from datetime import datetime
+from apscheduler.schedulers.background import BackgroundScheduler
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
